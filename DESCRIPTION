@@ -1,9 +1,11 @@
 Package: shinypackage
-Title: What the Package Does (one line, title case)
+Title: a simple shiny app
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Ildiko", "Czeller", email = "dummy@gmail.com", role = c("aut", "cre"))
+Description: A simple shiny app as one main function and other helper functions.
 Depends: R (>= 3.4.0)
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Suggests: testthat
+RoxygenNote: 6.0.1
