@@ -1,8 +1,14 @@
+utils::globalVariables(c("year", "age", "num_birth", "education_level"))
+
 #' server function for shiny app
 #'
 #' @importFrom magrittr %>%
 #' @import ggplot2
 #'
+#' @param input shiny input
+#' @param output shiny output
+#'
+#' @return a shiny server object
 shinypackage_server <- function(input, output) {
 
     getFilteredBirthDt <- function() {

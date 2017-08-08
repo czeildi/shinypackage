@@ -6,6 +6,14 @@
 \usage{
 shinypackage_server(input, output)
 }
+\arguments{
+\item{input}{shiny input}
+
+\item{output}{shiny output}
+}
+\value{
+a shiny server object
+}
 \description{
 server function for shiny app
 }
