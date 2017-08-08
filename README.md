@@ -17,3 +17,5 @@ devtools::install_github("czeildi/shinypackage")
 ``` r
 runShinyPackageApp()
 ```
+
+Material: for reference, especially on the data used see [github](https://github.com/czeildi/meetup-presentations_budapest/tree/master/Meetup_2017_06_21)
