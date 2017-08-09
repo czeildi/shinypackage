@@ -1,6 +1,6 @@
 Package: shinypackage
 Title: a simple shiny app
-Version: 0.2.9000
+Version: 0.3.0
 Authors@R: person("Ildiko", "Czeller", email = "dummy@gmail.com", role = c("aut", "cre"))
 Description: A simple shiny app as one main function and other helper functions.
 Depends: R (>= 3.4.0)
