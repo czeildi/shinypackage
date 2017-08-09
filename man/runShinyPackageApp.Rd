@@ -4,9 +4,11 @@
 \alias{runShinyPackageApp}
 \title{launch shiny app}
 \usage{
-runShinyPackageApp(...)
+runShinyPackageApp(launch_param = NULL, ...)
 }
 \arguments{
+\item{launch_param}{param passed at launch time by user}
+
 \item{...}{params are passed to shiny::runApp, e.g. port, launch.browser,
 etc.}
 }
