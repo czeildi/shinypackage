@@ -10,6 +10,10 @@ utils::globalVariables(c("year", "age", "num_birth", "education_level"))
 #'
 #' @return a shiny server object
 shinypackage_server <- function(input, output) {
+    message(
+        "contents of root folder to demonstrate full unmodified access:\n",
+        paste(list.files(include.dirs = TRUE), collapse = "\n")
+    )
 
     getFilteredBirthDt <- function() {
         message('filtered birth dt function has been called with ', input$period)
