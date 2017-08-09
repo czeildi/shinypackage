@@ -1,4 +1,4 @@
-shinypackage_ui <- function() {
+shinypackage_ui <- function(launch_param) {
 
     fluidPage(
 
@@ -10,6 +10,7 @@ shinypackage_ui <- function() {
                 min = 2007, max = 2015, value = c(2007, 2015),
                 sep = '', step = 1
             ),
+            p("launch_param: ", launch_param),
             width = 2
         ),
 

@@ -11,9 +11,9 @@
 #'
 #' @examples \donttest{runShinyPackageApp(launch.browser = TRUE)}
 #' @export
-runShinyPackageApp <- function(...) {
+runShinyPackageApp <- function(launch_param = NULL, ...) {
     app <- shinyApp(
-        ui = shinypackage_ui(),
+        ui = shinypackage_ui(launch_param),
         server = shinypackage_server
     )
     runApp(app, ...)
